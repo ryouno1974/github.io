@@ -1,0 +1,44 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+ .SNSicon {
+   color: white;
+   font-size: 25px;
+   float: right;
+   padding: 20px 5px;
+  }
+  
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+.SNSicon {
+  display:none;
+  }
+  
+.header-list {
+    display: none;
+}
+
+    
+
+.photo {
+  float: left;
+  width: 100%;
+  text-align:center;
+      
+  }
+  
+  .photo p{
+    text-align:center; 
+    
+  }  
+  .top-wrapper {
+    height: 350px; 
+    background-image:url(DSC_0455.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+    }
+  
+}
