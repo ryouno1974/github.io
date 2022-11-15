@@ -733,7 +733,7 @@ body.appear #container{
   @keyframes fadeUpAnime{
     from {
       opacity: 0;
-    transform: translateY(200px);
+    transform: translateY(00px);
     }
   
     to {
