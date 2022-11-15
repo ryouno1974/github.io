@@ -1,0 +1,116 @@
+@media screen and (max-width :767px ){
+  h1 {
+    font-size: 1rem;
+    color: var(--frontColor);
+    text-align: left;
+    font-weight: bold;
+  
+  }
+  .fixed-bg {
+    height: 200px;
+    
+  }
+
+
+  .mainvisual {
+    height: 50vh;
+    background-image:var(--Background-image);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+  }
+
+ 
+  .main-menu p {
+    font-size: 1rem;
+    margin-left: 2rem;
+
+  }
+  
+  
+  .main-menu ul{
+    display: none;
+  }
+
+  .btn {
+    display:inline;
+  }
+
+  .owase-text{
+    flex-flow: column;
+    
+  }
+
+  .info {
+    width: 80%;
+    margin-right: 0;
+    
+  }
+
+  #OWASE {
+    height:52rem;
+    background-position: 50% 70%;
+    
+  }
+
+  #TAIKEN{
+    height: 100rem;
+  }
+
+  #SHIGOTO{
+    height: 100rem;
+   
+    background-position: 60% 100%;
+   
+  }
+
+  #AKIYA{
+    height: 70rem;
+    background-position: 40% 10%;
+  }
+
+  #INTERVIEW{
+    height: 75rem;
+    background-position: 30% 100%;
+  }
+
+  #NEWS {
+    height: 42rem;
+
+  }
+  .newstext{
+    flex-direction:column
+  }
+
+  .news dt{
+    width: 98%;
+    text-align: left;
+  }
+
+  .news dd{
+    width: 100%;
+  }
+
+  .newstext{
+    width: 70%;
+  }
+
+  .addresstext ul {
+    width: 50%;
+  }
+
+  .fuwafuwa {
+    width: 50%;
+  }
+
+  #SAPOSEN {
+    height: 65rem;
+  }
+
+
+
+
+
+
+}
