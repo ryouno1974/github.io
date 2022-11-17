@@ -87,6 +87,38 @@ p {
   background-attachment:fixed;
 }
 
+/***fix対応    ***/
+
+.Section {
+  position: relative;  
+  width: 100vw;
+  height: 50vh;
+}
+
+.Section__Inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip: rect(auto,auto,auto,auto);
+}
+
+
+
+.Section-Image {
+    position: fixed; /* fixedに変更する。それ以外は同じ。 */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+/***fix対応    ***/
+
 .contents-text {
   display: flex;
   flex-wrap:wrap;
@@ -725,7 +757,7 @@ body.appear #container{
 
 .fadeUp{
   animation-name:fadeUpAnime;
-  animation-duration:0.8s;
+  animation-duration:1.3s;
   animation-fill-mode:forwards;
   opacity:0;
   }
@@ -733,7 +765,7 @@ body.appear #container{
   @keyframes fadeUpAnime{
     from {
       opacity: 0;
-    transform: translateY(150px);
+    transform: translateY(200px);
     }
   
     to {
