@@ -1,0 +1,107 @@
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* .scrool {
+    scroll-behavior: smooth;　ページ全体にこれ記述すると内部リンクがスムーズにスクロール
+} */
+
+img {
+    max-width: 100%;
+   
+    
+ }
+
+
+
+header {
+    color: white;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4%;
+    
+}
+
+header p {
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-weight: bold;
+}
+
+header a {
+    padding-top: 15px;
+}
+
+main {
+    position: relative; 
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.Firstview {
+    width: 100%;
+    height: 600px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+  }
+  
+  .Section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .Section__Inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip: rect(auto, auto, auto, auto);
+  }
+  
+  .Section-Image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .Section-Content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+  }
+  
+  .Section-Text {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
