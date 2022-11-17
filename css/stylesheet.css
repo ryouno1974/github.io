@@ -92,14 +92,14 @@ p {
 .Section {
   position: relative;  
   width: 100vw;
-  height: 100vh;
+  height: 300px;
 }
 
 .Section__Inner {
   position: absolute;
   width: 100%;
   height: 100%;
-  clip: rect(auto,auto,auto,auto);
+  clip: rect(auto,auto,300px,auto);
 }
 
 
@@ -114,6 +114,7 @@ p {
     height: 100vh;
     background-size: cover;
     background-position: center;
+
   }
 
 
