@@ -19,6 +19,10 @@
     --mobilemenuColor:#778899;
 }
 
+_::-webkit-full-page-media, _:future, :root .info  {
+	color: red;
+}
+
 
 img {
   max-width: 100%;
