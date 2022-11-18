@@ -233,7 +233,7 @@ padding-top: 20%;
 /*id TAIKEN */
 
 #TAIKEN{
-  height: 69rem;
+  height: 100rem;
   background-image: var(--taiken-backimage);
   background-position: 40% 0%;
   background-repeat: no-repeat;
