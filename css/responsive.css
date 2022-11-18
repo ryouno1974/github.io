@@ -4,13 +4,14 @@
     color: var(--frontColor);
     text-align: left;
     font-weight: bold;
-    
+  
+  }
+
   img {
-  max-width: 300px;
-  
+    max-width: 300px;
+    
   }
-  
-  }
+
   .fixed-bg {
     height: 250px;
     background-size: cover;
@@ -59,36 +60,38 @@
   }
 
   #OWASE {
-    height: 63rem;
+    
     background-position: 50% 70%;
     
   }
 
   #TAIKEN{
-    height: 100rem;
+   
+    background-position: 60% 0%;
   }
 
   #SHIGOTO{
-    height: 87rem;
+    
    
     background-position: 60% 100%;
    
   }
 
   #AKIYA{
-    height: 55rem;
+    
     background-position: 70% 10%;
   }
 
   #INTERVIEW{
-    height: 60rem;
+    
     background-position: 30% 100%;
   }
 
-  #NEWS {
+  /*#NEWS {
     height: 42rem;
 
-  }
+  }*/
+
   .newstext{
     flex-direction:column
   }
@@ -114,9 +117,9 @@
     width: 50%;
   }
 
-  #SAPOSEN {
+  /*#SAPOSEN {
     height: 65rem;
-  }
+  }*/
 
 
 

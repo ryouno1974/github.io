@@ -19,16 +19,6 @@
     --mobilemenuColor:#778899;
 }
 
-_::-webkit-full-page-media, _:future, :root .fixed-bg {
-	background-attachment:scroll;
-
-}
-
-_::-webkit-full-page-media, _:future, :root .fixed {
-	background-size: cover;
-   	background-position: center top;
-}
-
 
 img {
   max-width: 100%;
@@ -95,6 +85,19 @@ p {
 .fixed{
   background-attachment:fixed;
 }
+
+/* safariの時だけ設定を変える　*/
+_::-webkit-full-page-media, _:future, :root .fixed-bg {
+	background-attachment:scroll;
+
+}
+
+_::-webkit-full-page-media, _:future, :root .fixed {
+	background-size: cover;
+   	background-position: center top;
+}
+
+
 
 .contents-text {
   display: flex;
@@ -210,7 +213,7 @@ padding-top: 20%;
 
 /* OWASE　*/
 #OWASE {
-  height: 40rem;
+  
   background-image: var(--owasa-backimage);
   background-position: 85% 95%;
   background-repeat: no-repeat;
@@ -233,7 +236,7 @@ padding-top: 20%;
 /*id TAIKEN */
 
 #TAIKEN{
-  height: 100rem;
+  
   background-image: var(--taiken-backimage);
   background-position: 40% 0%;
   background-repeat: no-repeat;
@@ -246,7 +249,7 @@ padding-top: 20%;
 
 /*id shigoto  */
 #SHIGOTO{
-height: 67rem;
+
 background-image: var(--shigoto-backimage);
 background-position: 80% 80%;
 background-repeat: no-repeat;
@@ -261,7 +264,7 @@ background-repeat: no-repeat;
 
 /*id AKIYA　*/
 #AKIYA{
-  height: 40rem;
+  
   background-image: var(--akiya-backimage);
   background-position: 40% 10%;
   background-repeat: no-repeat;
@@ -276,7 +279,7 @@ background-repeat: no-repeat;
 /*id INTERVIEW  */
 
 #INTERVIEW{
-  height: 45rem;
+  
   background-image: var(--interview-backimage);
   background-position: 10% 100%;
   background-repeat: no-repeat;
@@ -289,7 +292,7 @@ background-repeat: no-repeat;
 
 /* id NEWS */
 #NEWS {
-    height: 22rem;
+    
     background-image: var(--news-backimage);
     background-position: 90% 40%;
     background-repeat: no-repeat;
@@ -321,9 +324,9 @@ background-repeat: no-repeat;
 }
 
 /*id saposen */
-#SAPOSEN {
+/*#SAPOSEN {
   height: 52rem;
-}
+}*/
 
 .google-map iframe{
   width: 100%;
