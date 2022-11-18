@@ -251,7 +251,7 @@ padding-top: 20%;
 #SHIGOTO{
 
 background-image: var(--shigoto-backimage);
-background-position: 80% 80%;
+background-position: 80% 90%;
 background-repeat: no-repeat;
 }
 
@@ -395,7 +395,7 @@ background-repeat: no-repeat;
 /*footer　　　　　　　　　　*/
 
 footer {
-  height: 5rem;
+  height: 8rem;
   background-color: var(--pointColor);
 }
 

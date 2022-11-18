@@ -8,7 +8,7 @@
   }
 
   img {
-    max-width: 300px;
+    max-width: 80%;
     
   }
 
@@ -24,7 +24,7 @@
 
 
   .mainvisual {
-    height: 50vh;
+    height: 500px;
     background-image:var(--Background-image);
     background-size: cover;
     background-position: center top;
@@ -60,20 +60,18 @@
   }
 
   #OWASE {
-    
-    background-position: 50% 70%;
-    
+    background-position: 80% 5%;
   }
 
   #TAIKEN{
    
-    background-position: 60% 0%;
+    background-position: 70% 0%;
   }
 
   #SHIGOTO{
     
    
-    background-position: 60% 100%;
+    background-position: 100% 5%;
    
   }
 
@@ -121,6 +119,11 @@
     height: 65rem;
   }*/
 
+  .footerlist {
+    flex-direction:column;
+    
+  }
+  
 
 
 
