@@ -19,8 +19,9 @@
     --mobilemenuColor:#778899;
 }
 
-_::-webkit-full-page-media, _:future, :root .info  {
-	color: red;
+_::-webkit-full-page-media, _:future, :root .fixed {
+	background-attachment:scroll;
+
 }
 
 
