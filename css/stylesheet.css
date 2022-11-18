@@ -19,9 +19,14 @@
     --mobilemenuColor:#778899;
 }
 
-_::-webkit-full-page-media, _:future, :root .fixed {
+_::-webkit-full-page-media, _:future, :root .fixed-bg {
 	background-attachment:scroll;
 
+}
+
+_::-webkit-full-page-media, _:future, :root .fixed {
+	background-size: cover;
+   	background-position: center top;
 }
 
 
