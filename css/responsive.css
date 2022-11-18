@@ -4,6 +4,11 @@
     color: var(--frontColor);
     text-align: left;
     font-weight: bold;
+    
+  img {
+  max-width: 80%;
+  
+  }
   
   }
   .fixed-bg {
