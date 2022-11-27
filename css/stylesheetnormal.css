@@ -1,0 +1,1161 @@
+/* 各種設定変数*/
+:root {
+    --Background-image:url(../img/top-header.jpeg); /*ヘッダー背景*/
+    --location-image:url(../img/location.jpeg); /*location背景*/
+    --taiken-image:url(../img/taiken.jpg);/*体験背景*/
+    --owasa-backimage:url(../img/mahata.png);
+    --taiken-backimage:url(../img/ika.png);
+    --shigoto-backimage:url(../img/sawara.png);
+    --shigoto-image:url(../img/shigoto.jpg);
+    --akiya-backimage:url(../img/ebi.png);
+    --akiya-image:url(../img/akiya.jpg);
+    --interview-backimage:url(../img/aji.png);
+    --interview-image:url(../img/INTERVIEWbg.jpg);
+    --news-backimage:url(../img/isaki.png);
+    --baseColor:#000000;
+    --frontColor:#FFFFFF;
+    --pointColor:#add8e6;
+    --pointColor2:#d6ffff;
+    --mobilemenuColor:#778899;
+    --owner-color:#FFE749;
+    --user-color:#9ADBF4;
+    --line-color:#c1c1c1;
+    --akiya-pallet-color:#ffffef;
+    --negotiation-color:#7FF183;
+    --flash-color:#ffffb2;
+}
+
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+/*共通CSS*/
+body {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    line-height: 1.7;
+    
+    
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+    font-size: 1rem;
+} 
+
+h1 {
+  font-size: 2rem;
+  
+
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+
+.font-kazari {
+  font-size:  1.2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px var(--line-color);
+}
+
+.font-kazaridai {
+  font-size:  1.8rem;
+  font-weight: bold;
+  text-shadow: 2px 2px var(--line-color);
+}
+
+
+.wrapper {
+  max-width: 1100px;
+  padding: 0 16px 0 16px;
+  margin: 0 auto;
+}
+
+/*ヘッダー*/
+header {
+  background-color: var(--mobilemenuColor);
+  opacity: 0.8;
+  position: fixed;
+  z-index: 100;
+  height: 5rem;
+  width: 100%;
+  top: 0;
+}
+
+header nav ul li {
+    color:var(--frontColor);
+    text-align: left;
+    font-weight: bold; 
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3.5rem;
+    text-shadow: 2px 2px var(--baseColor);
+}
+
+.main-menu ul{
+  display: flex;
+}
+
+.btntextchange{
+position: relative;
+}
+
+.btntextchange span{
+  /*絶対配置でテキストの位置を決める*/
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  /*アニメーションの指定*/
+  transition: all .5s;
+  /*ブロック要素にしてテキスト折り返しなし*/  
+  display: block;
+  white-space: nowrap;
+}
+
+.btntextchange span:nth-child(2){
+  opacity:0;/*透過0に*/
+}
+
+.btntextchange:hover span:nth-child(1){
+  opacity:0;/*透過0に*/
+}
+
+.btntextchange:hover span:nth-child(2){
+  font-size: 1.1rem;
+  opacity:1;/*不透明に*/
+}
+
+.main-menu p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 4.5rem;
+  padding-top: 0.5rem;
+  color: var(--frontColor);
+  text-shadow: 2px 2px var(--baseColor);
+}
+
+
+.taikentour img{
+  width: 70%;
+}
+
+
+
+/*footer　　　　　　　　　　*/
+
+footer {
+  height: 11rem;
+  background-color: var(--pointColor);
+}
+
+footer p {
+  text-align: center;
+  margin-top :6rem;
+}
+
+.footerlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SNS {
+  display: flex;
+  margin-top: 1rem;
+    
+}
+
+.fa-brands {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+.contact {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.contact li {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+/*体験関係css　*/
+.taikentour {
+  margin-bottom: 7rem;
+  position :relative;
+  top: 5rem ;
+  
+}
+
+.archive {
+  margin-bottom: 7rem;
+  position :relative;
+  top: 6rem ;
+  
+}
+
+.event-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event {
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 2rem;
+}
+
+.event-text {
+  font-size: 0.75rem;
+}
+
+.breadcrumb {
+  height: 1.6rem;
+  width: 100%;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+  background-color: var(--pointColor2);
+  border-radius: 12px;
+
+
+}
+
+.breadcrumb a,.breadcrumb i,.breadcrumb span {
+  font-size: 0.75rem;
+}
+
+.breadcrumb p{
+  padding-left: 1rem;
+}
+
+.breadcrumb i {
+  font-size: 0.5rem;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+
+}
+
+.breadcrumb a {
+  
+  font-weight: bold;
+}
+
+
+.akiya-main {
+  position :relative;
+  top: 7rem ;
+  margin-bottom: 10rem;
+  
+}
+
+.akiya-main img{
+  width: 25%;
+  position: absolute;
+  top:58.5%;
+  left:37.2%;
+}
+
+.akiya-top{
+margin-bottom: 6rem;
+}
+
+.akiya-pallet {
+  display: flex;
+}
+
+.akiya-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.owner{
+  width: 50%;
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  background-color: var(--owner-color);
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 13rem;
+}
+
+.akiya-title{
+  position: absolute;
+  top: -8%;
+  left: 10%;
+  font-size:  1.4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px var(--line-color);
+}
+
+.user{
+  width: 50%;
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  background-color: var(--user-color);
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 13rem;
+}
+
+
+.pallet-menu{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.pallet-menu p{
+  font-weight: bold;
+  text-shadow: 1px 1px var(--line-color);
+}
+
+.pallet-action :hover {
+  background-color:var(--flash-color);
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+
+.owner-routine,.owner-document,.owner-alteration,.owner-rule,.user-routine,.user-document,.user-search,.user-rule{
+  width: 46%;
+  height: 160px;
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  background-color:var(--akiya-pallet-color);
+  margin-bottom: 1rem;
+}
+
+.owner-routine{
+  background-image: url(../img/kominka_hiraya.png);
+  background-size:60%;
+  background-position: 40% 25%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.owner-routine p{
+  position: absolute;
+  top:67%;
+  left: 10%;
+}
+
+.owner-document{
+  background-image: url(../img/document_syorui_pen.png);
+  background-size:40%;
+  background-position: 50% 8%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.owner-document p{
+  position: absolute;
+  top:67%;
+  left: 10%;
+}
+
+.owner-alteration{
+  background-image: url(../img/syorui_morau_woman.png);
+  background-size:35%;
+  background-position: 45% 8%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.owner-alteration p{
+  position: absolute;
+  top:67%;
+  left: 14%;
+}
+
+.owner-rule{
+  background-image: url(../img/syorui_yomu_woman.png);
+  background-size:30%;
+  background-position: 45% 20%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.owner-rule p{
+  position: absolute;
+  top:67%;
+  left: 7%;
+}
+
+.user-routine{
+  background-image: url(../img/myhome_family_kengaku.png);
+  background-size:50%;
+  background-position: 45% 20%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.user-routine p{
+  position: absolute;
+  top:67%;
+  left: 7%;
+}
+
+.user-document{
+  background-image: url(../img/document_syorui_pen.png);
+  background-size:40%;
+  background-position: 50% 8%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.user-document p{
+  position: absolute;
+  top:67%;
+  left: 25%;
+}
+
+.user-search{
+  background-image: url(../img/house_ie_sagashi.png);
+  background-size:40%;
+  background-position: 50% 23%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.user-search p{
+  position: absolute;
+  top:67%;
+  left: 25%;
+}
+
+.user-rule{
+  background-image: url(../img/syorui_yomu_woman.png);
+  background-size:30%;
+  background-position: 45% 20%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.user-rule p{
+  position: absolute;
+  top:67%;
+  left: 7%;
+}
+
+.negotiation-button {
+  border: solid 0.5px var(--flash-color);
+  border-radius: 20px;
+  background-image: url(../img/akusyu_hand_naked.png);
+  background-size:20%;
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  height: 200px;
+  background-color:var(--negotiation-color);
+  padding-top: 0.5rem;
+  position: relative;
+}
+
+.negotiation-button p{
+  position: absolute;
+  top:5%;
+  left: 35%;
+}
+
+#OWNER-RT {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.owner-rt-title{
+width: 100%;
+height: 9rem;
+text-align: left;
+padding-left: 1rem;
+padding-top: 6rem;
+}
+
+.owner-rt-txt {
+  width: 100%;
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  background-color: var(--owner-color);
+  padding: 0.3rem 0 0.6rem 0.6rem;
+  background-image: url(../img/isan_souzoku2.png);
+  background-size:20%;
+  background-position: 90% 90%;
+  background-repeat: no-repeat;
+
+}
+
+.owner-rt-headline p{
+  font-size:  1.3rem;
+  font-weight: bold;
+  line-height: 1.3;
+  text-shadow: 2px 2px var(--line-color);
+
+}
+
+
+
+.owner-rt-important {
+  color: red;
+  line-height: 1.2;
+  padding-top: 3rem;
+  font-size:  1.2rem;
+  text-shadow: 1px 1px var(--line-color);
+}
+
+
+.owner-rt-box {
+  width: 33%;
+  height: 250px;
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  line-height: 1.2;
+  
+}
+
+.owner-rt-box p{
+  padding-top: 0.3rem;
+  padding-right: 0.6rem;
+}
+.owner-rt-important2{
+  width: 100%;
+}
+
+.rt1 {
+  background-color: var(--owner-color);
+  background-image: url(../img/maru1.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt1 img{
+  width: 37%;
+  position: absolute;
+  top:17%;
+  left:30%;
+}
+
+.rt1 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt1 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+.rt2 {
+  background-color: var(--owner-color);
+  background-image: url(../img/maru2.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt2 img{
+  width: 38%;
+  position: absolute;
+  top:25%;
+  left:35%;
+}
+
+.rt2 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt2 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+.rt3 {
+  background-color: var(--owner-color);
+  background-image: url(../img/maru3.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt3 img{
+  width: 38%;
+  position: absolute;
+  top:25%;
+  left:35%;
+}
+
+.rt3 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt3 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+.rt4 {
+  background-color: var(--owner-color);
+  background-image: url(../img/maru4.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt4 img{
+  width: 38%;
+  position: absolute;
+  top:28%;
+  left:35%;
+}
+
+.rt4 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt4 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+.rt5 {
+  background-color: var(--negotiation-color);
+  background-image: url(../img/maru5.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt5 img{
+  width: 40%;
+  position: absolute;
+  top:25%;
+  left:30%;
+}
+
+.rt5 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt5 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+.rt6 {
+  background-color: var(--negotiation-color);
+  background-image: url(../img/maru6.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt6 img{
+  width: 60%;
+  position: absolute;
+  top:30%;
+  left:25%;
+}
+
+.rt6 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt6 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+.rt7 {
+  background-color: var(--negotiation-color);
+  background-image: url(../img/maru7.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt7 img{
+  width: 55%;
+  position: absolute;
+  top:30%;
+  left:25%;
+}
+
+.rt7 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt7 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+.rt8 {
+  background-color: var(--negotiation-color);
+  background-image: url(../img/maru8.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt8 img{
+  width: 30%;
+  position: absolute;
+  top:25%;
+  left:35%;
+}
+
+.rt8 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt8 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+.rt9 {
+  background-color: var(--owner-color);
+  background-image: url(../img/maru9.png);
+  background-size:20%;
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.rt9 img{
+  width: 43%;
+  position: absolute;
+  top:25%;
+  left:25%;
+}
+
+.rt9 p {
+  position: absolute;
+  top:1%;
+  left:5%;
+}
+
+.rt9 a {
+  position: absolute;
+  top:80%;
+  left:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ハンバーガーメニュー　------------------------------------　*/
+
+.mobile-menu {
+  z-index:  1;
+  position: fixed;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  /* メニューを縦に */
+  color: var(--frontColor);
+  background-color: var(--mobilemenuColor);
+  transition: .3s;
+}
+
+/*.mobile-list {
+
+} リストの設定*/
+
+.btn {
+  /* ボタンの配置位置  */
+  display: none;
+  position: fixed;
+  top: 15px;
+  right: 16px;
+  /* ボタンの大きさ  */
+  width: 48px;
+  height: 48px;
+  /* 最前面に */
+  z-index: 10;
+  
+}
+
+/***** 真ん中のバーガー線 *****/
+.btn-line {
+	display: block;
+	position: relative;  /* バーガー線の位置基準として設定 */
+	width: 100%;  /* 線の長さと高さ */
+	height: 4px;
+	background-color: var(--frontColor);  /* バーガー線の色 */
+	transition: .2s;
+}
+
+/****** 上下のバーガー線 *****/
+.btn-line::before,
+.btn-line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--frontColor);
+  transition: .5s;
+}
+.btn-line::before {
+  /* 上の線の位置 */
+  transform: translateY(-16px);
+}
+.btn-line::after {
+  /* 下の線の位置 */
+  transform: translateY(16px);
+}
+
+.mobile-menu.open {
+  right: 0;
+}
+
+/***** メニューオープン時 *****/
+.btn-line.open {
+	background-color: transparent;  	/* 真ん中の線を透明に */
+}
+.btn-line.open::before ,
+.btn-line.open::after {
+	content: "";
+	background-color: var(--frontColor);  /* 上下の線の色を変える */
+	transition: .2s;
+}
+.btn-line.open::before {
+	transform: rotate(45deg);  /* 上の線を傾ける */
+}
+.btn-line.open::after {
+	transform: rotate(-45deg);  /* 下の線を傾ける */
+}
+/* ハンバーガーメニュー　------------------------------------おわり　*/
+
+/*========= ページトップのためのCSS 　　　　　　　　　　　　　　　　　　　　　　===============*/
+/*リンクを右下に固定*/
+#page-top {
+  position: fixed;
+  right: 10px;
+  bottom:30px;
+  z-index: 2;
+    /*はじめは非表示*/
+  opacity: 0;
+  transform: translateY(150px);
+}
+
+/*　上に上がる動き　*/
+#page-top.UpMove{
+  animation: UpAnime 0.5s forwards;
+}
+
+@keyframes UpAnime{
+  from {
+    opacity: 0;
+  transform: translateY(150px);
+  }
+  to {
+    opacity: 1;
+  transform: translateY(0);
+  }
+}
+
+/*　下に下がる動き　*/
+#page-top.DownMove{
+  animation: DownAnime 0.5s forwards;
+}
+
+@keyframes DownAnime{
+  from {
+    opacity: 1;
+  transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+  transform: translateY(150px);
+  }
+}
+
+/*画像の切り替えと動き*/
+#page-top a {
+    /*aタグの形状*/
+  display: block;
+  width: 100px;
+  height: 100px;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase; 
+  text-decoration: none;
+  font-size:0.6rem;
+    /*背景画像の指定*/
+  background: url("../img/pagetop_1.png") no-repeat center;
+  background-size: contain;
+}
+
+#page-top.floatAnime a{
+  width: 100px;
+  height: 130px;
+    /*背景画像の指定*/
+  background: url("../img/pagetop_2.png") no-repeat center;
+  background-size: contain;
+    /*アニメーションの指定*/
+  animation: floatAnime 2s linear infinite;
+  opacity: 0;
+}
+
+@keyframes floatAnime {
+  0% { transform: translateX(0); opacity: 0; }
+  25% { transform: translateX(-6px);opacity: 1; }
+  50% { transform: translateX(0) }
+  100% { transform: translateX(6px);opacity: 1; }
+}
+
+/*Page Topと書かれたテキストの位置*/
+#page-top span{
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+  color: #666;
+}
+
+/*========= ページトップのためのCSS 　　おわり　　　　　　　　　　　　　　　　　　===============*/
+
+/*========= ローディング画面のためのCSS ===============                    */
+#splash {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	z-index: 9999999;
+	text-align:center;
+	color:#fff;
+}
+
+#splash-logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/*========= 画面遷移のためのCSS ===============*/
+
+body{
+    background:#333;/*遷移アニメーションと同じ色を指定*/
+}
+
+body.appear{
+    background:#fff;/*画面を開いた後の背景色を指定*/
+}
+
+body.appearA{
+  background:#fff;/*画面を開いた後の背景色を指定*/
+}
+
+/*画面遷移アニメーション*/
+.splashbg1,
+.splashbg2{
+    display: none;
+}
+
+/*bodyにappearクラスがついたら出現*/
+body.appear .splashbg1,
+body.appear .splashbg2{
+	display:block;
+}
+
+/*右に消えるエリア*/
+body.appear .splashbg1{
+	animation-name:PageAnime;
+	animation-duration:1.2s;
+	animation-timing-function:ease-in-out;
+	animation-fill-mode:forwards;
+    content: "";
+    position:fixed;
+	z-index: 999;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+	left:50%;
+    transform: scaleX(1);
+    background-color: #333;/*伸びる背景色の設定*/
+}
+
+@keyframes PageAnime{
+	0% {
+		transform-origin:left;
+		transform:scaleX(1);
+	}
+	50% {
+		transform-origin:right;
+	}
+	100% {
+		transform-origin:right;
+		transform:scaleX(0);
+	}
+}
+
+/*左に消えるエリア*/
+body.appear .splashbg2{
+	animation-name:PageAnime2;
+	animation-duration:1.2s;
+	animation-timing-function:ease-in-out;
+	animation-fill-mode:forwards;
+    content: "";
+    position:fixed;
+	z-index: 999;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+	right:50%;
+    transform: scaleX(1);
+    background-color: #333;/*伸びる背景色の設定*/
+
+}
+
+@keyframes PageAnime2{
+	0% {
+		transform-origin:right;
+		transform:scaleX(1);
+	}
+
+	50% {
+		transform-origin:left;
+	}
+	100% {
+		transform-origin:left;
+		transform:scaleX(0);
+	}
+}
+
+/*画面遷移の後現れるコンテンツ設定*/
+#container{
+	opacity: 0;/*はじめは透過0に*/
+}
+
+/*bodyにappearクラスがついたら出現*/
+body.appear #container{
+	animation-name:PageAnimeAppear;
+	animation-duration:1s;
+	animation-delay:0.2s;
+	animation-fill-mode:forwards;
+	opacity: 0;
+}
+
+@keyframes PageAnimeAppear{
+	0% {
+	opacity: 0;
+	}
+	100% {
+	opacity: 1;
+}
+}
+/*スキップのためのappear　*/
+body.appearA #container{
+	animation-name:PageAnimeAppearA;
+	animation-duration:1s;
+	animation-delay:0.2s;
+	animation-fill-mode:forwards;
+	opacity: 0;
+}
+
+@keyframes PageAnimeAppearA{
+	0% {
+    opacity: 0;
+	}
+	100% {
+	opacity: 1;
+}
+}
+
+
+
+/*========= ローディング画面のためのCSS ===============  おわり　*/
+
+/* fadeUp */
+
+.fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration:1.3s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(200px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    
+    }
+  }
+  
+  
+  /* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+   
+  .fadeUpTrigger{
+      opacity: 0;
+     
+  }
+
+

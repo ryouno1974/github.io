@@ -123,9 +123,312 @@
     flex-direction:column;
     
   }
+
+  footer p {
+    margin-top :3rem;
+  }
   
+  /* イベント一覧　*/
+  
+  .event {
+    width: 100%;
+    
+  }
 
+  .akiya-pallet,.akiya-flex {
+    flex-direction:column;
+  }
 
+  .akiya-main img{
+    display: none;
+  }
+
+  .owner,.user {
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+
+  .owner {
+    margin-bottom: 2rem;
+  }
+
+  .pallet-action{
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: 100px;
+  }
+
+  .negotiation-button {
+    width: 100%;
+  }
+
+  .akiya-title{
+    position: absolute;
+    top: -5.5%;
+    left: 15%;
+   
+  }
+
+  .owner-routine{
+    background-size :30%;
+    background-position: 100% 80%;
+  }
+  
+  .owner-routine p{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    font-size: 1.3rem;
+  }
+
+  .owner-document{
+    background-size:15%;
+    background-position: 90% 8%;
+  }
+  
+  .owner-document p{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    font-size: 1.3rem;
+  }
+
+  .owner-alteration{
+    background-size:15%;
+    background-position: 90% 8%;
+  }
+  
+  .owner-alteration p{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    font-size: 1.3rem;
+  }
+
+  .owner-rule{
+    background-size:15%;
+    background-position: 90% 8%;
+  }
+  
+  .owner-rule p{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    font-size: 1.3rem;
+  }
+
+  .user-routine{
+    background-size:21%;
+    background-position: 90% 10%;
+  }
+  
+  .user-routine p{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    font-size: 1.3rem;
+  }
+  
+  .user-document{
+    background-size:15%;
+    background-position: 90% 8%;
+  }
+  
+  .user-document p{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    font-size: 1.3rem;
+
+  }
+  
+  .user-search{
+    background-size:15%;
+    background-position: 90% 8%;
+  }
+  
+  .user-search p{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    font-size: 1.3rem;
+
+  }
+  
+  .user-rule{
+    background-size:15%;
+    background-position: 90% 8%;
+  }
+  
+  .user-rule p{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    font-size: 1.3rem;
+
+  }
+
+  .negotiation-button {
+    background-size:20%;
+    background-position: 90% 80%;
+
+  }
+
+  .negotiation-button p {
+    position: absolute;
+    top:30%;
+    left:9.5%;
+  }
+
+  #OWNER-RT {
+    flex-direction:column;
+  }
+
+  .owner-rt-box {
+    width: 100%;
+    height: 140px;
+  }
+
+  .owner-rt-headline p{
+    font-size:  1rem;
+  }
+
+  .owner-rt-important {
+    font-size:  1rem;
+   
+  }
+
+  .owner-rt-txt {
+    background-position: 100% 40%;
+  }
+
+  .rt1,.rt2,.rt3,.rt4,.rt5,.rt6,.rt7,.rt8,.rt9{
+    background-size: 10%;
+    background-position: 1% 1%;
+  }
+  
+  .rt1 img{
+    width: 15%;
+    top:20%;
+    left:40%;
+  }
+
+  .rt1 p {
+    top:1%;
+    left:12%;
+  }
+  
+  .rt1 a {
+    top:80%;
+    left:12%;
+  }
+
+  .rt2 img{
+    width: 15%;
+    top:20%;
+    left:40%;
+  }
+
+  .rt2 p {
+    top:1%;
+    left:12%;
+  }
+  
+  .rt2 a {
+    top:80%;
+    left:12%;
+  }
+
+  .rt3 img{
+    width: 15%;
+    top:20%;
+    left:40%;
+  }
+
+  .rt3 p {
+    top:1%;
+    left:12%;
+  }
+  
+  .rt3 a {
+    top:80%;
+    left:12%;
+  }
+
+  .rt4 img{
+    width: 15%;
+    top:20%;
+    left:40%;
+  }
+
+  .rt4 p {
+    top:1%;
+    left:12%;
+  }
+  
+  .rt4 a {
+    top:80%;
+    left:12%;
+  }
+  
+  .rt5 img{
+    width: 20%;
+    top:20%;
+    left:40%;
+  }
+
+  .rt5 p {
+    top:1%;
+    left:12%;
+  }
+
+  .rt6 img{
+    width: 25%;
+    top:25%;
+    left:35%;
+  }
+
+  .rt6 p {
+    top:1%;
+    left:12%;
+  }
+
+  .rt7 img{
+    width: 25%;
+    top:25%;
+    left:35%;
+  }
+
+  .rt7 p {
+    top:1%;
+    left:12%;
+  }
+  
+  .rt8 img{
+    width: 13%;
+    top:20%;
+    left:40%;
+  }
+
+  .rt8 p {
+    top:1%;
+    left:12%;
+  }
+
+  .rt9 img{
+    width: 13%;
+    top:25%;
+    left:40%;
+  }
+
+  .rt9 p {
+    top:1%;
+    left:12%;
+  }
+  
+  
+  
 
 
 

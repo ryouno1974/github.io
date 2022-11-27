@@ -80,6 +80,7 @@ p {
 .fixed-bg {
   height: 300px;
   background-position:center;
+  margin: 1rem,0,1rem,0;
  }
 
 .fixed{
@@ -395,12 +396,13 @@ background-repeat: no-repeat;
 /*footer　　　　　　　　　　*/
 
 footer {
-  height: 8rem;
+  height: 11rem;
   background-color: var(--pointColor);
 }
 
 footer p {
   text-align: center;
+  margin-top :6rem;
 }
 
 .footerlist {
@@ -427,11 +429,6 @@ footer p {
   font-size: 0.8rem;
   margin-right: 0.5rem;
 }
-
-
-
-
-
 
 
 /* ハンバーガーメニュー　------------------------------------　*/
@@ -634,6 +631,10 @@ body.appear{
     background:#fff;/*画面を開いた後の背景色を指定*/
 }
 
+body.appearA{
+  background:#fff;/*画面を開いた後の背景色を指定*/
+}
+
 /*画面遷移アニメーション*/
 .splashbg1,
 .splashbg2{
@@ -732,6 +733,25 @@ body.appear #container{
 	opacity: 1;
 }
 }
+
+body.appearA #container{
+	animation-name:PageAnimeAppearA;
+	animation-duration:1s;
+	animation-delay:0.2s;
+	animation-fill-mode:forwards;
+	opacity: 0;
+}
+
+@keyframes PageAnimeAppearA{
+	0% {
+    opacity: 0;
+	}
+	100% {
+	opacity: 1;
+}
+}
+
+
 
 /*========= ローディング画面のためのCSS ===============  おわり　*/
 
