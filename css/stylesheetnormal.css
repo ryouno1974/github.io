@@ -17,8 +17,8 @@
     --pointColor:#add8e6;
     --pointColor2:#d6ffff;
     --mobilemenuColor:#778899;
-    --owner-color:#FFE749;
-    --user-color:#9ADBF4;
+    --owner-color:#9ADBF4;
+    --user-color:#FFE749;
     --line-color:#c1c1c1;
     --akiya-pallet-color:#ffffef;
     --negotiation-color:#7FF183;
@@ -252,7 +252,6 @@ footer p {
 }
 
 .breadcrumb a {
-  
   font-weight: bold;
 }
 
@@ -265,10 +264,10 @@ footer p {
 }
 
 .akiya-main img{
-  width: 25%;
+  width: 15%;
   position: absolute;
-  top:58.5%;
-  left:37.2%;
+  top:72%;
+  left:42.35%;
 }
 
 .akiya-top{
@@ -292,7 +291,7 @@ margin-bottom: 6rem;
   background-color: var(--owner-color);
   position: relative;
   padding-top: 1rem;
-  padding-bottom: 13rem;
+  padding-bottom: 8rem;
 }
 
 .akiya-title{
@@ -311,7 +310,7 @@ margin-bottom: 6rem;
   background-color: var(--user-color);
   position: relative;
   padding-top: 1rem;
-  padding-bottom: 13rem;
+  padding-bottom: 8rem;
 }
 
 
@@ -461,10 +460,10 @@ margin-bottom: 6rem;
   border: solid 0.5px var(--flash-color);
   border-radius: 20px;
   background-image: url(../img/akusyu_hand_naked.png);
-  background-size:20%;
-  background-position: 50% 80%;
+  background-size:12%;
+  background-position: 50% 85%;
   background-repeat: no-repeat;
-  height: 200px;
+  height: 120px;
   background-color:var(--negotiation-color);
   padding-top: 0.5rem;
   position: relative;
@@ -537,6 +536,8 @@ padding-top: 6rem;
 }
 .owner-rt-important2{
   width: 100%;
+  line-height: 1.2;
+
 }
 
 .rt1 {
@@ -673,12 +674,6 @@ padding-top: 6rem;
   left:5%;
 }
 
-.rt5 a {
-  position: absolute;
-  top:80%;
-  left:5%;
-}
-
 .rt6 {
   background-color: var(--negotiation-color);
   background-image: url(../img/maru6.png);
@@ -698,12 +693,6 @@ padding-top: 6rem;
 .rt6 p {
   position: absolute;
   top:1%;
-  left:5%;
-}
-
-.rt6 a {
-  position: absolute;
-  top:80%;
   left:5%;
 }
 
@@ -729,12 +718,6 @@ padding-top: 6rem;
   left:5%;
 }
 
-.rt7 a {
-  position: absolute;
-  top:80%;
-  left:5%;
-}
-
 .rt8 {
   background-color: var(--negotiation-color);
   background-image: url(../img/maru8.png);
@@ -754,12 +737,6 @@ padding-top: 6rem;
 .rt8 p {
   position: absolute;
   top:1%;
-  left:5%;
-}
-
-.rt8 a {
-  position: absolute;
-  top:80%;
   left:5%;
 }
 
@@ -785,11 +762,232 @@ padding-top: 6rem;
   left:5%;
 }
 
-.rt9 a {
+.rt10 {
+  width: 100%;
+  height: 120px;
+  background-color: var(--negotiation-color);
+  position: relative;
+}
+
+.rt10 img{
+  height: 110px;
+  position: absolute;
+  top:5%;
+  left:70%;
+}
+
+.rt10 p{
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.rt10 :ntn-child(1) p {
+  position: absolute;
+  top:1%;
+}
+
+.rt10 :ntn-child(2) p {
+  position: absolute;
+  top:10%;
+}
+
+.rt10 :ntn-child(3) p {
+  position: absolute;
+  top:20%;
+}
+
+#OWNER-DM {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#OWNER-DM .owner-rt-title{
+  width: 100%;
+}
+
+.owner-dm-box {
+  width: 50%;
+  height: 150px;
+  background-color: var(--owner-color);
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  line-height: 1.2;
+  display: flex;
+  position: relative;
+}
+
+.dm-box-img1 {
+  width: 90px;
+  position: absolute;
+  top: 28%;
+  left:15%
+}
+
+.owner-dm-box p{
+  width: 80%;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.owner-dm-box a p{
   position: absolute;
   top:80%;
-  left:5%;
+  left:15%;
 }
+
+.dm-box-img2 {
+  width: 200px;
+  position: absolute;
+  top:30%;
+  left:45%;
+}
+
+.owner-dm-box a span {
+  font-size: 1rem;
+  position: absolute;
+  top:75%;
+  left:45%;
+}
+
+.owner-al-title{
+  margin-top: 3rem;
+}
+
+#OWNER-AL h3{
+ width: 100%;
+ padding-left: 0.6rem;
+  
+}
+
+#OWNER-AL h4{
+  width: 100%;
+  padding-left: 0.6rem;
+
+}
+
+.owner-al-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.owner-al-box {
+  width: 33%;
+  height: 200px;
+  background-color: var(--owner-color);
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  line-height: 1.2;
+  position: relative;
+}
+
+.owner-al-box p{
+  width: 95%;
+  padding-left: 0.6rem;
+  padding-top: 0.6rem;
+}
+
+.al1 {
+  background-image: url(../img/maru1.png);
+  background-size: 20%;
+  background-position: 1% 60%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.al1 img{
+  width: 110px;
+  position: absolute;
+  left: 35%;
+
+}
+
+.al1 span {
+  font-size: 1rem;
+  position: absolute;
+  left :5%;
+  top:80%;
+
+}
+
+.al2 {
+  background-image: url(../img/maru2.png);
+  background-size: 20%;
+  background-position: 1% 60%;
+  background-repeat: no-repeat;
+  background-color: var(--negotiation-color);
+  position: relative;
+}
+
+.al2 img{
+  width: 150px;
+  position: absolute;
+  left: 30%;
+  top:45%;
+
+}
+
+.al3 {
+  background-image: url(../img/maru3.png);
+  background-size: 20%;
+  background-position: 1% 60%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.al3 img{
+  width: 130px;
+  position: absolute;
+  left: 30%;
+  top:25%;
+
+}
+
+.owner-al-title2 {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.al4 {
+  background-image: url(../img/maru1.png);
+  background-size: 20%;
+  background-position: 1% 60%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.al4 img{
+  width: 110px;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+
+}
+
+.al4 span {
+  font-size: 1rem;
+  position: absolute;
+  left :5%;
+  top:80%;
+
+}
+
+.owner-al-box2 {
+  width: 33%;
+}
+
+.owner-al-box2 p{
+  width: 90%;
+  line-height: 1.2;
+  padding-left: 0.6rem;
+  padding-top: 0.6rem;
+}
+
+
+
+
+
+
 
 
 

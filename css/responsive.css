@@ -149,7 +149,7 @@
   }
 
   .owner {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   .pallet-action{
@@ -165,120 +165,131 @@
 
   .akiya-title{
     position: absolute;
-    top: -5.5%;
-    left: 15%;
+    top: -7%;
+    left: 5%;
    
   }
 
+  .akiya-title {
+    font-size: 1.2rem;
+
+  }
+
+  .akiya-flex p{
+    font-size: 1rem;
+    width: 70%;
+  }
+
   .owner-routine{
-    background-size :30%;
-    background-position: 100% 80%;
+    background-size :80px;
+    background-position: 90% 80%;
   }
   
   .owner-routine p{
     position: absolute;
-    top:30%;
+    top:5%;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .owner-document{
-    background-size:15%;
-    background-position: 90% 8%;
+    background-size:80px;
+    background-position: 95% 40%;
   }
   
   .owner-document p{
     position: absolute;
-    top:30%;
+    top:5%;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .owner-alteration{
-    background-size:15%;
-    background-position: 90% 8%;
+    background-size:70px;
+    background-position: 90% 40%;
   }
   
   .owner-alteration p{
     position: absolute;
-    top:30%;
+    top:5%;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .owner-rule{
-    background-size:15%;
-    background-position: 90% 8%;
+    background-size:65px;
+    background-position: 90% 40%;
   }
   
   .owner-rule p{
     position: absolute;
-    top:30%;
+    top:5%;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .user-routine{
-    background-size:21%;
-    background-position: 90% 10%;
+    background-size:80px;
+    background-position: 90% 65%;
   }
   
   .user-routine p{
     position: absolute;
-    top:30%;
+    top:5%;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   
   .user-document{
-    background-size:15%;
-    background-position: 90% 8%;
+    background-size:80px;
+    background-position: 95% 40%;
   }
   
   .user-document p{
     position: absolute;
-    top:30%;
+    top:5%;
     left: 5%;
-    font-size: 1.3rem;
-
+    font-size: 1.2rem;
   }
   
   .user-search{
-    background-size:15%;
-    background-position: 90% 8%;
+    background-size:70px;
+    background-position: 90% 40%;
   }
   
   .user-search p{
     position: absolute;
-    top:30%;
+    top:5%;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
   }
   
   .user-rule{
-    background-size:15%;
-    background-position: 90% 8%;
+    background-size:70px;
+    background-position: 90% 50%;
   }
   
   .user-rule p{
     position: absolute;
-    top:30%;
+    top:5%;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
   }
 
   .negotiation-button {
-    background-size:20%;
-    background-position: 90% 80%;
+    background-size:80px;
+    background-position: 85% 80%;
 
   }
 
   .negotiation-button p {
     position: absolute;
-    top:30%;
+    top:5%;
     left:9.5%;
+    width: 70%;
+    font-size: 1.2rem;
   }
 
   #OWNER-RT {
@@ -438,6 +449,49 @@
     top:1%;
     left:12%;
     width: 70%;
+  }
+
+  .rt10 {
+   height: 160px;
+  }
+  
+  .rt10 img{
+    height: 70px;
+    top:20%;
+    left:73%;
+  }
+  
+  .rt10 p{
+   width: 80%;
+  }
+
+  .owner-dm-box {
+    width: 100%;
+  }
+
+  .dm-box-img1 {
+    width: 70px;
+  }
+  .dm-box-img2 {
+    width: 130px;
+  }
+
+  .owner-al-1{
+    flex-direction: column;
+
+  }
+
+  .owner-al-box,.owner-al-box2 {
+    width: 100%;
+  }
+
+  .owner-al-title{
+    margin-top: 5rem;
+  }
+
+  #OWNER-AL h3{
+    font-size: 1.2rem;
+    line-height: 1.2;
   }
   
   
