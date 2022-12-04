@@ -335,6 +335,7 @@
     top:60%;
     left:12%;
     width: 70%;
+    font-size: 0.8rem;
   }
 
   .rt2 img{
@@ -371,6 +372,8 @@
     top:65%;
     left:12%;
     width: 65%;
+    font-size: 0.8rem;
+
   }
 
   .rt4 img{
@@ -389,6 +392,8 @@
     top:65%;
     left:12%;
     width: 65%;
+    font-size: 0.8rem;
+
   }
   
   .rt5 img{
@@ -467,13 +472,30 @@
 
   .owner-dm-box {
     width: 100%;
+    height: 100px;
   }
 
   .dm-box-img1 {
-    width: 70px;
+    width: 60px;
+    left:10%;
+    top: 32%;
   }
   .dm-box-img2 {
     width: 130px;
+    left:55%;
+  }
+
+  .owner-dm-box a p{
+    position: absolute;
+    top:40%;
+    left:25%;
+    font-size: 0.8rem;
+  }
+
+  .owner-dm-box a span {
+    top:65%;
+    font-size: 0.8rem;
+    left:55%;
   }
 
   .owner-al-1{
@@ -489,11 +511,235 @@
     margin-top: 5rem;
   }
 
+  .owner-al-box {
+    height: 100px;
+    background-position: 1% 1%;
+    background-size: 10%;
+  }
+
+  .owner-al-box p{
+    padding-left: 12%;
+    padding-top: 2%;
+    font-size: 1rem;
+    width: 73%;
+  } 
+
+  .al1 img{
+    width: 70px;
+    position: absolute;
+    left: 75%;
+    top:8%;
+  }
+
+  .al1 span {
+    position: absolute;
+    left :12%;
+    top:75%;
+    font-size: 0.8rem;
+
+  }
+
+  .al2 img{
+    width: 90px;
+    position: absolute;
+    left: 72%;
+    top:25%;
+  }
+
+  .al3 img{
+    width: 80px;
+    position: absolute;
+    left: 75%;
+    top:10%;
+  }
+
+  .al4 img{
+    width: 70px;
+    position: absolute;
+    left: 75%;
+    top:8%;
+  }
+
+  .al4 span {
+    position: absolute;
+    left :12%;
+    top:75%;
+    font-size: 0.8rem;
+
+  }
+
+
   #OWNER-AL h3{
     font-size: 1.2rem;
     line-height: 1.2;
   }
+
+  #USER-RT {
+    flex-direction: column;
+  }
   
+  .user-rt-box {
+    width: 100%;
+    height: 100px;
+    background-position: 1% 1%;
+    background-size: 10%;
+    padding-top:0.3rem;
+
+  }
+
+  .user-rt-box p{
+    padding-left: 10%;
+    font-size: 1rem;
+    width: 73%;
+   }
+
+   .u-rt1 img{
+    width: 70px;
+    position: absolute;
+    top: 8%;
+    left: 72%;
+  }
+
+  .u-rt1 span {
+    width: 65%;
+    position: absolute;
+    left: 12%;
+    top:55%;
+    font-size: 0.8rem;
+  }
+
+  .u-rt2 img{
+    width: 60px;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+  }
+
+  .u-rt2 span {
+    width: 65%;
+    position: absolute;
+    left: 12%;
+    top:70%;
+    font-size: 0.8rem;
+  }
+
+  .u-rt3 img{
+    width: 60px;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+
+  .u-rt3 span {
+    width: 65%;
+    position: absolute;
+    left: 12%;
+    top:55%;
+    font-size: 0.8rem;
+  }
+
+  .u-rt3-spn {
+   left: 5%;
+   font-size: 0.8rem;
+  }
+
+  .u-rt3-sp {
+    top:75%;
+    left: 40%;
+  }
+
+  .u-rt4 img{
+    width: 80px;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+  }
+
+  .u-rt4 span {
+    width: 65%;
+    position: absolute;
+    left: 12%;
+    top:70%;
+    font-size: 0.8rem;
+  }
+
+  .u-rt5 img{
+    width: 80px;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+  }
+
+  .u-rt6 img{
+    width: 60px;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+
+  .u-rt6 span {
+    width: 65%;
+    position: absolute;
+    left: 12%;
+    top:55%;
+    font-size: 0.8rem;
+  }
+
+  .u-rt7 img{
+    width: 70px;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+
+  .u-rt7 span {
+    width: 65%;
+    position: absolute;
+    left: 12%;
+    top:55%;
+    font-size: 0.8rem;
+  }
+
+  .u-rt8 img{
+    width: 75px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+  }
+
+  .u-rt8 span {
+    width: 65%;
+    position: absolute;
+    left: 12%;
+    top:55%;
+    font-size: 0.8rem;
+  }
+
+  .u-rt9 img{
+    width: 75px;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+
+  .u-rt10 img{
+    width: 60px;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+  }
+
+  .u-rt10 span {
+    width: 65%;
+    position: absolute;
+    left: 12%;
+    top:55%;
+    font-size: 0.8rem;
+  }
+
+  .u-rt11 {
+    width: 100%;
+  }
   
   
 

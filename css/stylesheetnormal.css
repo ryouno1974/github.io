@@ -77,7 +77,7 @@ p {
 .font-kazaridai {
   font-size:  1.8rem;
   font-weight: bold;
-  text-shadow: 2px 2px var(--line-color);
+  text-shadow: 1px 1px var(--line-color);
 }
 
 
@@ -325,7 +325,7 @@ margin-bottom: 6rem;
 
 .pallet-menu p{
   font-weight: bold;
-  text-shadow: 1px 1px var(--line-color);
+  
 }
 
 .pallet-action :hover {
@@ -481,7 +481,7 @@ margin-bottom: 6rem;
   justify-content: space-around;
 }
 
-.owner-rt-title{
+.owner-title{
 width: 100%;
 height: 9rem;
 text-align: left;
@@ -506,7 +506,7 @@ padding-top: 6rem;
   font-size:  1.3rem;
   font-weight: bold;
   line-height: 1.3;
-  text-shadow: 2px 2px var(--line-color);
+ 
 
 }
 
@@ -517,7 +517,7 @@ padding-top: 6rem;
   line-height: 1.2;
   padding-top: 3rem;
   font-size:  1.2rem;
-  text-shadow: 1px 1px var(--line-color);
+  
 }
 
 
@@ -535,6 +535,8 @@ padding-top: 6rem;
   padding-right: 0.6rem;
 }
 .owner-rt-important2{
+  padding-top: 0.6rem;
+  padding-left: 0.6rem;
   width: 100%;
   line-height: 1.2;
 
@@ -801,7 +803,7 @@ padding-top: 6rem;
   flex-wrap: wrap;
 }
 
-#OWNER-DM .owner-rt-title{
+#OWNER-DM .owner-title{
   width: 100%;
 }
 
@@ -982,6 +984,265 @@ padding-top: 6rem;
   padding-left: 0.6rem;
   padding-top: 0.6rem;
 }
+
+#USER-RT {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.user-rt-box {
+  width: 33%;
+  height: 200px;
+  background-color: var(--user-color);
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  line-height: 1.2;
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+
+}
+
+.user-rt-box p{
+ width: 95%;
+}
+
+.user-rt {
+  width: 100%;
+  background-color: var(--user-color);
+  border: solid 0.5px var(--line-color);
+  border-radius: 20px;
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
+  font-size:  1.3rem;
+  font-weight: bold;
+  line-height: 1.4;
+
+}
+
+.u-rt1 {
+  background-image: url(../img/maru1.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt1 img{
+  width: 90px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.u-rt1 span {
+  position: absolute;
+  left: 5%;
+  top:80%;
+}
+
+.u-rt2 {
+  background-image: url(../img/maru2.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt2 img{
+  width: 90px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.u-rt2 span {
+  position: absolute;
+  left: 20%;
+  top:80%;
+}
+
+.u-rt3 {
+  background-image: url(../img/maru3.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt3 img{
+  width: 90px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.u-rt3 span {
+  position: absolute;
+  left: 5%;
+  top:75%;
+}
+
+.u-rt3-spn {
+  position: absolute;
+  left:28%;
+  top:75%
+}
+
+.u-rt3-sp {
+  width: 100%;
+  position: absolute;
+  left: 23%;
+  top:85%;
+}
+
+.u-rt4 {
+  background-image: url(../img/maru4.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt4 img{
+  width: 120px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.u-rt4 span {
+  position: absolute;
+  left: 20%;
+  top:75%;
+}
+
+.u-rt5 {
+  background-color: var(--negotiation-color);
+  background-image: url(../img/maru5.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt5 img{
+  width: 120px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.u-rt6 {
+  background-image: url(../img/maru6.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt6 img{
+  width: 120px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.u-rt6 span {
+  position: absolute;
+  left: 5%;
+  top:75%;
+}
+
+.u-rt7 {
+  background-image: url(../img/maru7.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt7 img{
+  width: 120px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.u-rt7 span {
+  position: absolute;
+  left: 5%;
+  top:75%;
+}
+
+.u-rt8 {
+  background-image: url(../img/maru8.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt8 img{
+  width: 140px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+.u-rt8 span {
+  position: absolute;
+  left: 5%;
+  top:75%;
+}
+
+.u-rt9 {
+  background-image: url(../img/maru9.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt9 img{
+  width: 140px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+
+.u-rt10 {
+  background-image: url(../img/maru10.png);
+  background-size: 20%;
+  background-position: 3% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.u-rt10 img{
+  width: 85px;
+  position: absolute;
+  top: 15%;
+  left: 38%;
+}
+
+.u-rt10 span {
+  position: absolute;
+  left: 5%;
+  top:75%;
+}
+
+.u-rt11 {
+  width: 66%;
+  line-height: 1.3;
+}
+
+.u-rt11 p {
+  font-size: 0.9rem;
+}
+
 
 
 
