@@ -513,7 +513,6 @@ padding-top: 6rem;
 
 
 .owner-rt-important {
-  color: red;
   line-height: 1.2;
   padding-top: 3rem;
   font-size:  1.2rem;
@@ -1243,8 +1242,596 @@ padding-top: 6rem;
   font-size: 0.9rem;
 }
 
+#USER-DM {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+#USER-DM .owner-title {
+  width: 100%;
+} 
 
+#USER-DM .dm-box-img1 {
+  top: 20%;
+  background-size: 70px;
+}
+
+.user-dm-0 {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top:75%;
+  
+  
+}
+.user-dm-1 {
+  width: 35%;
+  position: absolute;
+  display: flex;
+  left:10%;
+  justify-content: space-around;
+}
+
+.user-dm-2 {
+  width: 35%;
+  position: absolute;
+  display: flex;
+  left:50%;
+  justify-content: space-around;
+
+}
+
+#NEGOTIATION {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#NEGOTIATION .owner-title{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.nego-box {
+  width: 33%;
+  height: 200px;
+  line-height: 1.2;
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+  position: relative;
+  
+}
+
+.nego-box2 {
+  width: 33%;
+  height: 200px;
+  line-height: 1.2;
+  position: relative;
+  
+}
+
+.ng1,.ng2,.ng4,.ng5,.ng7,.ng9,.ng10,.ng11,.ng13,.ng15,.ng16,.ng17,.ng18{
+border: solid 0.5px var(--line-color);
+border-radius: 20px
+}
+
+.ng1 p,.ng2 p,.ng4 p,.ng5 p,.ng7 p,.ng9 p,.ng10 p,.ng11 p,.ng13 p,.ng15 p,.ng16 p,.ng17 p,.ng18 p{
+  width: 95%;
+}
+
+.ng1 {
+  background-image: url(../img/maru1.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--user-color);
+}
+
+.ng1 img{
+  width: 200px;
+  position: absolute;
+  left:25%;
+  top:45%;
+
+}
+
+.ng2 {
+  background-image: url(../img/maru2.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--negotiation-color);
+}
+
+.ng2 img{
+  width: 150px;
+  position: absolute;
+  left:30%;
+  top:45%;
+
+}
+
+.ng3 {
+
+  display: flex;
+  
+}
+
+.ng3 img{
+  width: 110px;
+  position: absolute;
+  left:32%;
+  top:38%;
+}
+
+.ng3-1 {
+  width: 50%;
+  background-color: var(--owner-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 20px;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	border-bottom-left-radius : 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-right-radius : 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-bottom-right-radius : 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+  
+  background-image: url(../img/maru3.png);
+  background-size: 40%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+
+}
+
+.ng3-2 {
+  width: 50%;
+  background-color: var(--user-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-bottom-left-radius : 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-right-radius : 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-bottom-right-radius : 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+
+.ng3-2 p {
+  position: absolute;
+  left: 5%;
+  top:5%;
+  width: 90%;
+}
+
+.ng4 {
+  background-image: url(../img/maru4.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--user-color);
+}
+
+.ng4 img{
+  width: 80px;
+  position: absolute;
+  left:40%;
+  top:45%;
+
+}
+
+.ng5 {
+  background-image: url(../img/maru5.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--user-color);
+}
+
+.ng5 img{
+  width: 80px;
+  position: absolute;
+  left:40%;
+  top:45%;
+
+}
+
+.ng6 {
+
+  display: flex;
+  
+}
+
+.ng6 img{
+  width: 120px;
+  position: absolute;
+  left:35%;
+  top:60%;
+}
+
+.ng6-1 {
+  width: 50%;
+  background-color: var(--owner-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 20px;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	border-bottom-left-radius : 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-right-radius : 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-bottom-right-radius : 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+  
+  background-image: url(../img/maru6.png);
+  background-size: 40%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+
+}
+
+.ng6-2 {
+  width: 50%;
+  background-color: var(--user-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-bottom-left-radius : 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-right-radius : 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-bottom-right-radius : 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+
+.ng6-2 p {
+  position: absolute;
+  left: 5%;
+  top:5%;
+  width: 90%;
+}
+
+.ng7 {
+  background-image: url(../img/maru7.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--owner-color);
+}
+
+.ng7 img{
+  width: 130px;
+  position: absolute;
+  left:40%;
+  top:63%;
+
+}
+
+.ng8 {
+
+  display: flex;
+  
+}
+
+.ng8 img{
+  width: 120px;
+  position: absolute;
+  left:35%;
+  top:42%;
+}
+
+.ng8-1 {
+  width: 50%;
+  background-color: var(--negotiation-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 20px;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	border-bottom-left-radius : 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-right-radius : 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-bottom-right-radius : 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+  background-image: url(../img/maru8.png);
+  background-size: 40%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+
+}
+
+.ng8-2 {
+  width: 50%;
+  background-color: var(--user-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-bottom-left-radius : 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-right-radius : 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-bottom-right-radius : 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+
+.ng8-2 p {
+  position: absolute;
+  left: 5%;
+  top:5%;
+  width: 90%;
+}
+
+.ng9 {
+  background-image: url(../img/maru9.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--owner-color);
+}
+
+.ng9 img{
+  width: 85px;
+  position: absolute;
+  left:40%;
+  top:52%;
+}
+
+.ng10 {
+  background-image: url(../img/maru10.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--user-color);
+}
+
+.ng10 img{
+  width: 60px;
+  position: absolute;
+  left:40%;
+  top:58%;
+
+}
+
+.ng11 {
+  background-image: url(../img/maru11.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--user-color);
+}
+
+.ng11 img{
+  width: 140px;
+  position: absolute;
+  left:35%;
+  top:60%;
+
+}
+
+.ng12 {
+
+  display: flex;
+  
+}
+
+.ng12 img{
+  width: 70px;
+  position: absolute;
+  left:40%;
+  top:60%;
+}
+
+.ng12-1 {
+  width: 50%;
+  background-color: var(--owner-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 20px;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	border-bottom-left-radius : 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-right-radius : 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-bottom-right-radius : 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+  background-image: url(../img/maru12.png);
+  background-size: 40%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+
+}
+
+.ng12-2 {
+  width: 50%;
+  background-color: var(--user-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-bottom-left-radius : 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-right-radius : 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-bottom-right-radius : 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+
+.ng12-2 p {
+  position: absolute;
+  left: 5%;
+  top:5%;
+  width: 90%;
+}
+
+.ng13 {
+  background-image: url(../img/maru13.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--user-color);
+}
+
+.ng13 img{
+  width: 140px;
+  position: absolute;
+  left:35%;
+  top:62%;
+
+}
+
+.ng14 {
+
+  display: flex;
+  
+}
+
+.ng14 img{
+  width: 90px;
+  position: absolute;
+  left:37%;
+  top:44%;
+}
+
+.ng14-1 {
+  width: 50%;
+  background-color: var(--owner-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 20px;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	border-bottom-left-radius : 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-right-radius : 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-bottom-right-radius : 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+  background-image: url(../img/maru14.png);
+  background-size: 40%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+
+}
+
+.ng14-2 {
+  width: 50%;
+  background-color: var(--user-color);
+  border: solid 0.5px var(--line-color);
+  border-top-left-radius : 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-bottom-left-radius : 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-right-radius : 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-bottom-right-radius : 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+
+.ng14-2 p {
+  position: absolute;
+  left: 5%;
+  top:5%;
+  width: 90%;
+}
+
+.ng15 {
+  background-image: url(../img/maru15.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--owner-color);
+}
+
+.ng15 img{
+  width:100px;
+  position: absolute;
+  left:35%;
+  top:45%;
+}
+
+.ng16 {
+  background-image: url(../img/maru16.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--line-color);
+}
+
+.ng16 img{
+  width:140px;
+  position: absolute;
+  left:35%;
+  top:60%;
+}
+
+.ng17 {
+  background-image: url(../img/maru17.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--user-color);
+}
+
+.ng17 img{
+  width:170px;
+  position: absolute;
+  left:25%;
+  top:55%;
+}
+
+.ng18 {
+  background-image: url(../img/maru18.png);
+  background-size: 20%;
+  background-position: 3% 99%;
+  background-repeat: no-repeat;
+  background-color: var(--user-color);
+}
+
+.ng18 img{
+  width:180px;
+  position: absolute;
+  left:25%;
+  top:45%;
+}
+
+.ng19 {
+  line-height: 1.2;
+  margin-bottom: 5rem;
+}
 
 
 

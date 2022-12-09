@@ -741,7 +741,146 @@
     width: 100%;
   }
   
-  
+  .user-dm-0 p{
+    font-size: 0.8rem;
+    padding-bottom: 0.3rem;
+  }
+
+  #USER-DM .dm-box-img1 {
+    top: 25%;
+    background-size: 50px;
+  }
+
+  #NEGOTIATION {
+    flex-direction: column;
+  }
+
+  .nego-box {
+    width: 100%;
+    height: 150px;
+    background-size: 10%;
+  }
+
+  .nego-box2 {
+    width: 100%;
+    height: 150px;
+    background-size: 20%;
+  }
+
+  .ng3-1,.ng6-1,.ng8-1,.ng12-1,.ng14-1{
+    background-size: 20%;
+    background-position: 5% 99%;
+  }
+
+  #NEGOTIATION .font-kazaridai {
+    font-size: 1.5rem;
+  }
+
+  .ng1 img{
+    left: 36%;
+    top:40%;
+  }
+
+  .ng2 img{
+    width: 120px;
+    left: 40%;
+    top:40%;
+  }
+
+  .ng3 img{
+    top:20%;
+    left: 41.5%;
+  }
+
+  .ng4 img{
+    width: 60px;
+    top:45%;
+    left: 45%;
+  }
+  .ng5 img{
+    width: 60px;
+    top:45%;
+    left: 45%;
+  }
+
+  .ng6 img{
+    width: 90px;
+    top:63%;
+    left: 44%;
+  }
+
+  .ng7 img{
+    width: 100px;
+    top:62%;
+    left: 44%;
+  }
+
+  .ng8 img{
+    width: 90px;
+    top:43%;
+    left: 44%;
+  }
+
+  .ng9 img{
+    width: 75px;
+    top:41%;
+    left: 41%;
+  }
+
+  .ng10 img{
+    width: 60px;
+    top:45%;
+    left: 45%;
+  }
+
+  .ng11 img{
+    width: 120px;
+    top:55%;
+    left: 44%;
+  }
+
+  .ng12 img{
+    width: 60px;
+    top:54%;
+    left: 46%;
+  }
+
+  .ng13 img{
+    width: 120px;
+    top:55%;
+    left: 44%;
+  }
+
+  .ng14 img{
+    width: 60px;
+    top:50%;
+    left: 46%;
+  }
+
+  .ng15 img{
+    width: 90px;
+    top:36%;
+    left: 46%;
+  }
+
+  .ng16 img{
+    width: 120px;
+    top:55%;
+    left: 44%;
+  }
+
+  .ng17 img{
+    width: 130px;
+    top:58%;
+    left: 44%;
+  }
+
+  .ng18 img{
+    width: 90px;
+    top:63%;
+    left: 44%;
+  }
+
 
 
 
