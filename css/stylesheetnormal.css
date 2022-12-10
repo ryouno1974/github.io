@@ -271,8 +271,55 @@ footer p {
 }
 
 .akiya-top{
-margin-bottom: 6rem;
+margin-bottom: 3rem;
 }
+
+.guide {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+  
+}
+
+.guide-txt{
+  width: 100%;
+  line-height: 1.2;
+}
+
+.guide-box1 {
+  text-align: center;
+  width: 25%;
+  border: solid 0.5px var(--line-color);
+  border-radius: 10px;
+  background-color: var(--owner-color);
+}
+
+.guide-box2 {
+  text-align: center;
+  width: 25%;
+  border: solid 0.5px var(--line-color);
+  border-radius: 10px;
+  background-color: var(--user-color);
+}
+
+.guide-box3 {
+  text-align: center;
+  width: 25%;
+  border: solid 0.5px var(--line-color);
+  border-radius: 10px;
+  background-color: var(--negotiation-color);
+}
+
+.guide-box4 {
+  text-align: center;
+  width: 25%;
+  border: solid 0.5px var(--line-color);
+  border-radius: 10px;
+  background-color: var(--line-color);
+}
+
+
+
 
 .akiya-pallet {
   display: flex;
@@ -496,8 +543,8 @@ padding-top: 6rem;
   background-color: var(--owner-color);
   padding: 0.3rem 0 0.6rem 0.6rem;
   background-image: url(../img/isan_souzoku2.png);
-  background-size:20%;
-  background-position: 90% 90%;
+  background-size:18%;
+  background-position: 90% 45%;
   background-repeat: no-repeat;
 
 }
@@ -517,6 +564,10 @@ padding-top: 6rem;
   padding-top: 3rem;
   font-size:  1.2rem;
   
+}
+
+.owner-rt-important p{
+  margin-bottom: 0.2rem;
 }
 
 
@@ -1329,7 +1380,7 @@ border-radius: 20px
 .ng1 img{
   width: 200px;
   position: absolute;
-  left:25%;
+  left: 16%;
   top:45%;
 
 }

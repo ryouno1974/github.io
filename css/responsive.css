@@ -159,6 +159,22 @@
     height: 100px;
   }
 
+  .guide-box1 {
+    width: 50%;
+  }
+  
+  .guide-box2 {
+    width: 50%;
+  }
+  
+  .guide-box3 {
+    width: 50%;
+  }
+  
+  .guide-box4 {
+    width: 50%;
+  }
+
   .negotiation-button {
     width: 100%;
   }
