@@ -14,13 +14,14 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
+    <main>
         <div id="splash">
-            <div id="splash-logo">おわせにおいで・・・</div>
+            <div id="splash-logo">海と山に寄り添って暮らす・・</div>
         </div><!--/splash-->
-            <div class="splashbg1"></div>
-            <div class="splashbg2"></div>
-            <!---画面遷移用-->
- <div id="container">
+        <div class="splashbg1"></div>
+        <div class="splashbg2"></div>
+                <!---画面遷移用-->
+<div id="container">
     <header>
         
             <div class="header-bar" id="top">
@@ -53,8 +54,26 @@
         </ul>
     </nav>
     </header>
-    
-    <div class="mainvisual"><h1>緑と青があるくらし　おわせ</h1></div>
+    <div class="mainvisual-space"></div>
+    <div class="mainvisual">
+        <div id="video-area"></div><!--/video-area-->
+        <video id="video" poster="./img/top-header.jpeg" webkit-playsinline playsinline muted autoplay loop>
+              <!--
+                  poster：動画ファイルが利用できない環境で代替表示される画像
+                  webkit-playsinline：iOS 9までのSafari用インライン再生指定
+                  playsinline：iOS 10以降のSafari用インライン再生指定
+                  muted：音声をミュートさせる
+                  autoplay：動画を自動再生させる
+                  loop：動画をループさせる
+                  controls：コントロールバーを表示する
+              -->
+        <source src="./img/saposentopS2.mp4" type="video/mp4">
+        <source src="./img/saposentopS2.webm" type="video/webm">
+        <p>動画を再生できる環境ではありません。</p>
+        </video>
+        <p class="video-area-txt">緑と青があるくらし　おわせ</p>
+       
+    </div>
    
     <article id="OWASE" class="wrapper backimage fadeUpTrigger"><br><br><br>       
     <h2>尾鷲とは？</h2>
@@ -183,7 +202,7 @@
             <p>
                 空き家バンク物件一覧はこちらを
             </p>
-            <a href="#"><img src="./img/eventtour.jpg" alt="空き家バンク物件一覧"></a>
+            <a href="./index-akiya.html"><img src="./img/eventtour.jpg" alt="空き家バンク物件一覧"></a>
         </div>
                     
     </div>                    
