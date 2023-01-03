@@ -198,19 +198,39 @@ position: relative;
 }
 
 /*メインビジュアル　*/
+.mainvisual-space {
+  height: 5rem;
+}
 .mainvisual {
   height: 100vh;
-  background-image:var(--Background-image);
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  
+  width: 100%;
+  position: relative;
+  background-image: repeating-linear-gradient(0deg,transparent, transparent 2px,white 2px,white 3px);
 } 
 
-.mainvisual h1 {
-padding-top: 20%;
 
+#video {
+  /*天地中央配置*/
+  position: absolute;
+  z-index: -1;
+  /*縦横幅指定*/
+  object-fit: cover;
+  width: 100%; /*177.77777778vh;* 16:9 の幅→16 ÷ 9＝ 177.77% */
+  height: 100%; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
 }
+
+
+.video-area-txt {
+  z-index: 6;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--frontColor);
+  text-shadow: 2px 2px var(--baseColor);
+  position: absolute;
+  top:25%;
+  left:10%;
+}
+
 
 /* OWASE　*/
 #OWASE {

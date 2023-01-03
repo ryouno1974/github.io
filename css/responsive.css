@@ -22,16 +22,22 @@
     background-attachment:scroll;
   }
 
-
   .mainvisual {
-    height: 500px;
-    background-image:var(--Background-image);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    
+    height: 300px;
   }
 
+
+
+  .mainvisual-space {
+    height: 5rem;
+  }
+
+  .video-area-txt {
+    font-size: 1.5rem;
+  }
+
+
+ 
  
   .main-menu p {
     font-size: 1rem;
@@ -896,7 +902,22 @@
     top:63%;
     left: 44%;
   }
+ 
+  .map-txt {
+    display: none;
+  }
 
+  .map-txt-mobile{
+    display:contents;
+  }
+
+  .search ul li{
+    width: 32%;
+  }
+  
+  .akiya-list {
+    width: 100%;
+  }
 
 
 

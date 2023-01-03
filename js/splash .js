@@ -26,6 +26,8 @@ jQuery(function () {
                    //=====ここから背景が伸びた後に動かしたいJSをまとめたい場合は
                 $('.splashbg1').on('animationend', function() { 
                              //この中に動かしたいJSを記載
+                             $('body').addClass('appear');//フェードアウト後bodyにappearクラス付与
+
                 });
                              //=====ここまで背景が伸びた後に動かしたいJSをまとめる
                              
